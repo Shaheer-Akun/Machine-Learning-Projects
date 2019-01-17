@@ -1,14 +1,14 @@
-##Reboot: Box-Plots for Education
+## Reboot: Box-Plots for Education
 Competition on DrivenData
-####Current Rank in competition - 55
+#### Current Rank in competition - 55
 
-###Summary
+### Summary
 
 Budgets for schools and school districts are huge, complex, and unwieldy. It's no easy task to digest where and how schools are using their resources. Education Resource Strategies is a non-profit that tackles just this task with the goal of letting districts be smarter, more strategic, and more effective in their spending.
 
 Your task is a multi-class-multi-label classification problem with the goal of attaching canonical labels to the freeform text in budget line items. These labels let ERS understand how schools are spending money and tailor their strategy recommendations to improve outcomes for students, teachers, and administrators.
 
-###Approach taken by me
+### Approach taken by me
 
 * I first signed up for the competition on DrivenData site. After downloading the data from website, I loaded jupyter notebook and started   working on the project.
 * By inspecting the dataset I came to know that two types of data types are present. One is object that is generic string in python and     secong is numerical(float). 
@@ -23,5 +23,5 @@ Your task is a multi-class-multi-label classification problem with the goal of a
 * Checked log loss error.
 * Then, I fitted random forest model and tried different hyperparameters.
 
-####Result: Model with log loss error 1.0
+#### Result: Model with log loss error 1.0
 
